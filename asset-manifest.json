@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/protein-predictor/static/css/main.fa732066.css",
+    "main.js": "/protein-predictor/static/js/main.a06063f3.js",
+    "index.html": "/protein-predictor/index.html",
+    "main.fa732066.css.map": "/protein-predictor/static/css/main.fa732066.css.map",
+    "main.a06063f3.js.map": "/protein-predictor/static/js/main.a06063f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa732066.css",
+    "static/js/main.a06063f3.js"
+  ]
+}
