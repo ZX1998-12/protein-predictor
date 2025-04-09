@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/protein-prediction-tool/static/css/main.fa732066.css",
+    "main.js": "/protein-prediction-tool/static/js/main.0a54daec.js",
+    "index.html": "/protein-prediction-tool/index.html",
+    "main.fa732066.css.map": "/protein-prediction-tool/static/css/main.fa732066.css.map",
+    "main.0a54daec.js.map": "/protein-prediction-tool/static/js/main.0a54daec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa732066.css",
+    "static/js/main.0a54daec.js"
+  ]
+}

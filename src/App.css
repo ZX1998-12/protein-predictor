@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #1e549e 0%, #2196f3 100%);
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.protein-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.protein-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.protein-icon {
+  max-height: 120px;
+  max-width: 120px;
+}
+
+/* 预测页面样式 */
+.sequence-input {
+  font-family: 'Courier New', monospace;
+  min-height: 150px;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.sequence-input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.result-container {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.result-container h3 {
+  color: #1e549e;
+  margin-bottom: 20px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+/* 按钮样式 */
+.btn-primary {
+  background: linear-gradient(135deg, #1e549e 0%, #2196f3 100%);
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .protein-card {
+    margin-bottom: 20px;
+  }
+} 
