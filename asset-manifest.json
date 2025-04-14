@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/protein-predictor/static/css/main.fa732066.css",
-    "main.js": "/protein-predictor/static/js/main.4bd626ac.js",
+    "main.js": "/protein-predictor/static/js/main.eff4da5b.js",
     "index.html": "/protein-predictor/index.html",
     "main.fa732066.css.map": "/protein-predictor/static/css/main.fa732066.css.map",
-    "main.4bd626ac.js.map": "/protein-predictor/static/js/main.4bd626ac.js.map"
+    "main.eff4da5b.js.map": "/protein-predictor/static/js/main.eff4da5b.js.map"
   },
   "entrypoints": [
     "static/css/main.fa732066.css",
-    "static/js/main.4bd626ac.js"
+    "static/js/main.eff4da5b.js"
   ]
 }
