@@ -7,6 +7,8 @@ import KcatPredictor from './pages/KcatPredictor';
 import KmPredictor from './pages/KmPredictor';
 import TmPredictor from './pages/TmPredictor';
 import SolubilityPredictor from './pages/SolubilityPredictor';
+import PromoterPredictor from './pages/PromoterPredictor';
+import RbsPredictor from './pages/RbsPredictor';
 import About from './pages/About';
 import Faq from './pages/Faq';
 import Api from './pages/Api';
@@ -23,6 +25,8 @@ const App: React.FC = () => {
             <Route path="/predict/km" element={<KmPredictor />} />
             <Route path="/predict/tm" element={<TmPredictor />} />
             <Route path="/predict/solubility" element={<SolubilityPredictor />} />
+            <Route path="/predict/promoter" element={<PromoterPredictor />} />
+            <Route path="/predict/rbs" element={<RbsPredictor />} />
             <Route path="/about" element={<About />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/api" element={<Api />} />
